@@ -3,7 +3,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-console.log(chalk.bgGreenBright.bold("\n*****WORD-COUNTER*****\n"));
+console.log(chalk.bgGray.bold("\n*****WORD-COUNTER*****\n"));
 
 const answer:
  {Sentence : string} 

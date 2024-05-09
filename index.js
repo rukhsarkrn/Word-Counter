@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
-console.log(chalk.bgGreenBright.bold("\n*****WORD-COUNTER*****\n"));
+console.log(chalk.bgGray.bold("\n*****WORD-COUNTER*****\n"));
 const answer = await inquirer.prompt([
     { name: "Sentence",
         message: (chalk.yellow("Enter your sentence here:")),

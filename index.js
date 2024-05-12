@@ -9,7 +9,7 @@ const answer = await inquirer.prompt([
 ]);
 // Split method is a separator and give the value in array.
 // Trim method remove the white spaces from the both end of the string.
-// Filter method is remove the white spaces between the array.
+// Filter method is remove the white spaces between the array
 let words = answer.Sentence.split(" ").filter(item => item.trim() !== "" && "\t" && "\n");
 let letter = answer.Sentence.split("").filter(item => item.trim() !== "");
 console.log(words);
